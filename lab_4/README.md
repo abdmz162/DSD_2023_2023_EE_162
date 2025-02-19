@@ -10,7 +10,7 @@ a<b ->Cyan
 ```
 ## Truth Table:
 Considering RGB as independent binary outputs, we have the following table:
-![color chip truth table](docs\color_chip_truth_table.png)
+![color chip truth table](./docs/color_chip_truth_table.png)
 
 ## Schematic:
-![circuit schematic](docs\color_chip_circuit_schematic.png)
+![circuit schematic](./docs/color_chip_circuit_schematic.png)
