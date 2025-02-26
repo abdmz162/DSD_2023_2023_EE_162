@@ -1,5 +1,5 @@
 # LAB_5:
-Design of a 7-segment driver chip, along with a binary to octal decoder for
+Design of a 7-segment driver chip, along with a binary to (inverted)octal decoder for
 selection of a particular display on the FPGA.
 ## Truth Tables:
 ### Truth table of the chip:
@@ -9,6 +9,7 @@ selection of a particular display on the FPGA.
 ------------
 
 ### Truth table of the binary-octal decoder:
+The following table has been implemented in an inverted form, because the common anodes were active _low_;
 
 ![truth table of binary-octal-decoder](./docs/b-to-oct-decoder-truth-table.png)
 -------------------
