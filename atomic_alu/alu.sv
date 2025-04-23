@@ -18,7 +18,7 @@ begin
 
         4'b0001:begin 
         y=a-b;
-        C = (a[31] & ~b[31]) | ((a[31] | ~b[31]) & ~y[31]); //carry flag
+        C = (a[31] & b[31]) | ((a[31] | b[31]) & ~y[31]); //carry flag
         O = ~(a[31] ^ b[31]) & (y[31] ^ b[31]); //overflow flag
         end
 
